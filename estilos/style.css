@@ -10,14 +10,14 @@ div#part1{
     color:rgba(255, 255, 255, 0.68);
     text-align: center;
     margin: auto;
-    width: 400px;
-    height:300px;
-    border-radius:0px 0px 15px 15px;
+    width: 380px;
+    height:325px;
+    border-radius:0px 0px 35px 35px;
     display: block;
 }
 div#part1 > h1{
     font-size:1.1em;
-    margin:px;
+    margin-bottom:20px;
 }
 div#part1 > h1#tit{
     font-weight: bolder;
@@ -28,11 +28,12 @@ div#part1 > h1#tit{
 div#circulo{
     display: block;
     margin: auto;
+    margin-bottom:15px ;
     text-align:bottom;
     border-radius: 50%;
     width:150px;
     height: 150px;
-    background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsl(241, 72%, 46%));
+    background-image: linear-gradient(to top,hsla(256, 100%, 67%),hsl(241, 81%, 54%));
 }
 div#circulo > p{
    
@@ -51,4 +52,15 @@ font-size: 1.1em;
 }
 div#part2 > p{
     margin: 30px;
+}
+input[type=submit]{
+    display: block;
+    margin: auto;
+    font-size:1em;
+    height:35px;
+    width:250px;
+    border-radius:20px;
+    border: none;
+    background-color: rgb(39, 45, 68);
+    color: white;
 }
