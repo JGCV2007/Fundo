@@ -17,7 +17,7 @@ div#part1{
 }
 div#part1 > h1{
     font-size:1.1em;
-    margin:10px;
+    margin:px;
 }
 div#part1 > h1#tit{
     font-weight: bolder;
@@ -27,7 +27,6 @@ div#part1 > h1#tit{
 
 div#circulo{
     display: block;
-    background-color: black;
     margin: auto;
     text-align:bottom;
     border-radius: 50%;
