@@ -10,18 +10,20 @@ div#part1{
     color:rgba(255, 255, 255, 0.68);
     text-align: center;
     margin: auto;
-    width: 380px;
+    margin-bottom:10px;
+    padding:12px;
+    width:380px;
     height:325px;
     border-radius:0px 0px 35px 35px;
     display: block;
 }
 div#part1 > h1{
-    font-size:1.1em;
+    font-size:1.2em;
     margin-bottom:20px;
 }
 div#part1 > h1#tit{
     font-weight: bolder;
-    font-size:1.3em;
+    font-size:1.5em;
     color: white;
 }
 
@@ -52,6 +54,7 @@ font-size: 1.1em;
 }
 div#part2 > p{
     margin: 30px;
+    word-spacing:150px;
 }
 input[type=submit]{
     display: block;
@@ -63,4 +66,7 @@ input[type=submit]{
     border: none;
     background-color: rgb(39, 45, 68);
     color: white;
+}
+input[type=submit]:hover{
+background-image:linear-gradient(to top,hsla(256, 100%, 67%),hsl(241, 81%, 54%));
 }
