@@ -6,7 +6,7 @@ padding: 0px;
 font-family: 'Hanken Grotesk', sans-serif;}
 
 div#part1{
-    background-image: linear-gradient(to top,hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+    background-image: linear-gradient(to top,hsl(241, 81%, 54%),hsl(256, 100%, 67%));
     color:rgba(255, 255, 255, 0.68);
     text-align: center;
     margin: auto;
@@ -26,6 +26,11 @@ div#part1 > h1#tit{
     font-size:1.5em;
     color: white;
 }
+div#circulo > h2{
+    padding-top:15px;
+    font-size: 3.5em;
+    color: white;
+}
 
 div#circulo{
     display: block;
@@ -35,7 +40,7 @@ div#circulo{
     border-radius: 50%;
     width:150px;
     height: 150px;
-    background-image: linear-gradient(to top,hsla(256, 100%, 67%),hsl(241, 81%, 54%));
+    background-image: linear-gradient(to top,rgb(74, 29, 199),hsl(241, 81%, 54%));
 }
 div#circulo > p{
    
@@ -52,10 +57,21 @@ div#part2 > h1{
 text-align: left;
 font-size: 1.1em;
 }
-div#part2 > p{
-    margin: 30px;
-    word-spacing:150px;
+
+div#part2 > ul >li{
+list-style-type: none;
+margin:30px;
 }
+div#part2 > ul > li> a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#cor1{ color: rgba(255, 0, 0, 0.69);}
+#cor2{color:#FFBF4A;}
+#cor3{color:#32C9A6 ;}
+#cor4{color:rgba(0, 0, 255, 0.66);}
+
 input[type=submit]{
     display: block;
     margin: auto;
