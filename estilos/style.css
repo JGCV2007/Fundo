@@ -42,9 +42,7 @@ div#circulo{
     height: 150px;
     background-image: linear-gradient(to top,rgb(74, 29, 199),hsl(241, 81%, 54%));
 }
-div#circulo > p{
-   
-}
+
 div#part2{
     text-align: center;
     margin: auto;
@@ -58,16 +56,24 @@ text-align: left;
 font-size: 1.1em;
 }
 
-div#part2 > ul >li{
-list-style-type: none;
-margin:30px;
-}
-div#part2 > ul > li> a{
-    text-decoration: none;
-    font-weight: bold;
-    cursor:initial;
+aside#caixa{
+    margin: auto;
+    width:300px;
+    display:inline-block;
 }
 
+aside#caixa > p{
+  margin-top:5px;
+  text-align: left; 
+  font-weight: bold;
+}
+aside#caixa > .pa{
+    text-align: right;
+    font-weight: normal;
+}
+aside#caixa > p > a{
+    text-decoration: none;
+}
 #cor1{ color: rgba(255, 0, 0, 0.69);}
 #cor2{color:#FFBF4A;}
 #cor3{color:#32C9A6 ;}
